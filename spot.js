@@ -24,7 +24,7 @@
         .then(() => engine.shake())
 		.then(() => engine.toText('心'))
         .then(() => engine.shake())
-		.then(() => engine.toText('(づ｡◕ᴗᴗ◕｡)づ'))
+		.then(() => engine.toText('\(๑╹◡╹)/'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
